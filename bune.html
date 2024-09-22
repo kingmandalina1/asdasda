@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandalina'nın Web Sitesi</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="light-mode">
+    <header>
+        <h1>Mandalina'nın Web Sitesi</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="news.html">Haberler</a></li>
+            <li><a href="games.html">Oyunlar</a></li>
+            <li><a href="movies.html">Filmler</a></li>
+            <li><a href="ai.html">Yapay Zeka</a></li>
+            <li><a href="about.html">Hakkımda</a></li>
+            <li><a href="polls.html">Anketler</a></li>
+            <li><a href="search.html">Arama</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="intro">
+            <h2>Hoşgeldiniz</h2>
+            <p>Burada ana sayfanın içeriği bulunacak.</p>
+        </section>
+        <section>
+            <h2>Son Haberler</h2>
+            <p>Burada son haberlerin içeriği bulunacak.</p>
+        </section>
+        <section>
+            <h2>Oyunlar</h2>
+            <p>Burada en yeni ve popüler oyunları bulabilirsiniz.</p>
+        </section>
+        <section>
+            <h2>Yapay Zeka</h2>
+            <p>Burada yapay zeka ile ilgili en son gelişmeleri bulabilirsiniz.</p>
+        </section>
+        <section>
+            <h2>Hakkımda</h2>
+            <p>Burada kendim hakkında bilgiler bulabilirsiniz.</p>
+        </section>
+        <section>
+            <h2>Arama</h2>
+            <p>Burada site içi arama yapabilirsiniz.</p>
+        </section>
+        <section>
+            <h2>Polls</h2>
+            <div class="poll-container">
+                <div class="poll">
+                    <h3>Hangi programlama dilini tercih ediyorsunuz?</h3>
+                    <form id="poll-form">
+                        <label>
+                            <input type="radio" name="language" value="Python">
+                            Python
+                        </label>
+                        <label>
+                            <input type="radio" name="language" value="JavaScript">
+                            JavaScript
+                        </label>
+                        <label>
+                            <input type="radio" name="language" value="Java">
+                            Java
+                        </label>
+                        <label>
+                            <input type="radio" name="language" value="C++">
+                            C++
+                        </label>
+                        <button type="submit">Oyla</button>
+                    </form>
+                    <div id="poll-result"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>2024 Mandalina'nın Sitesi - Tüm Hakları Saklıdır</p>
+    </footer>
+    <div id="theme-toggle-bar">
+        <span id="theme-icon" title="Tema Değiştir">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </span>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
